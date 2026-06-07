@@ -1,0 +1,44 @@
+## .NET build output
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+build/
+out/
+
+## NuGet
+*.nupkg
+*.snupkg
+/packages/
+.nuget/
+
+## Visual Studio
+.vs/
+*.user
+*.suo
+*.userprefs
+
+## Rider / JetBrains
+.idea/
+*.iml
+riderModule.iml
+/_ReSharper.Caches/
+*.DotSettings.user
+
+## Test results
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+*.coveragexml
+
+## OS
+.DS_Store
+Thumbs.db
+
+## Misc
+*.log
+*.tmp
